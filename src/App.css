@@ -1,0 +1,32 @@
+/* body */
+body{
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* navbar css */
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #111827;
+  color: rgb(255, 255, 255);
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+.nav-links>div:hover{
+  color: rgb(51, 51, 250);
+}
+.vertical-centre{
+  display: flex;
+  align-items: center;
+}
+/* button css */
+.button{
+  border: none;
+}
